@@ -192,7 +192,7 @@
   display: flex;
   background-color: white;
   padding: 30px;
-  width: 25%;
+  width: 100%;
   box-shadow: 2px 2px 2px 2px lightgray;
   margin-top: 30px;
   border-radius: 3px;
@@ -223,7 +223,7 @@
 }
 .section4b .btn4 {
   padding: 20px;
-  width: 25%;
+  width: 100%;
   box-shadow: 2px 2px 2px 2px lightgray;
   margin-top: 30px;
   border-radius: 3px;
@@ -232,4 +232,38 @@
   border: none;
   font-size: 20px;
   font-weight: 700;
+}
+
+.section4b {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.section4b .firstleft {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.section4b img {
+  border-radius: 10px;
+}
+.section4b h2 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.section4b p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(128, 128, 128, 0.884);
+}
+.section4b .btn5 {
+  padding: 20px;
+  text-transform: uppercase;
+  width: 24%;
+  margin-top: 30px;
+  background-color: #ed563b;
+  color: white;
+  border: none;
+  font-size: 15px;
 }/*# sourceMappingURL=trainingstudio.css.map */
