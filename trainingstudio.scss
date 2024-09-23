@@ -295,6 +295,52 @@
 
     }
 }
+.section5{
+    background-image: url(./image/schedule-bg.jpg);
+    height: 150vh;
+    background-position: center;
+    margin-top: 50px;
+    .section5a{
+        text-align: center;
+        padding-top: 120px;
+        color: white;
+    }
+    h1{
+        text-transform: uppercase;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 25px;
+         padding-bottom: 10px;
+    }
+    span{
+        color: #ed563b;
+    }
+    p{padding-top: 20px;
+        font-size: 15   px;
+        line-height: 1.5;
+        // color: rgba(128, 128, 128, 0.884);
+    }
+}
+.section5a_list{
+
+   margin-left: 400px;
+   margin-top: 100px;
+
+    ul{
+    
+        display: flex;
+        gap: 20px;
+        color: white;
+    }
+    a{
+        color: white;
+        text-transform: capitalize;
+    }
+    a:hover{
+        color: #ed563b;
+        transition: 1S;
+    }
+}
         
    
     
