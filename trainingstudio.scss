@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.627);
+    height: 15vh;
+    padding: 0 100px;
+    position: relative;
+
+    .nav_menulist{
+        display: flex;
+        gap: 20px;
+
+        .btn{
+            background-color: #ed563b;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+        }
+        
+        ul{
+            display: flex;
+            gap: 20px;
+            margin-top:9px;
+
+        }
+     
+             li a{
+            color: white;
+            font-size: 15px;
+             }
+
+             li a:hover{
+                color: #ed563b;
+             }
+
+
+    }
+   
+    .nav_logo{
+        font-size:20px;
+        font-weight: 700;
+        color: white;
+    }
+    .studio{
+        color:#ed563b;
+    }
+   
+   
+}
+.nav_video{
+    position: absolute;
+
+    video{
+        width: 100%;
+        filter: brightness(0.4);
+    }
+}
+
+.nav_text{
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+
+    p{
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    h1{
+        color: white;
+        font-weight: 900;
+        font-size: 60px;
+        text-transform: uppercase;
+        padding-top: 17px;
+    }
+    .gym{
+        color: #ed563b;
+    }
+    .btn1{
+       margin-top: 20px;
+        background-color: #ed563b;
+        padding: 15px 15px;
+        border: none;
+        
+    }
+    a{
+        color: white;
+        font-size: 15px;
+    }
+}
+.section2a{
+    margin-top: 450px;
+    text-align: center;
+
+    h1{
+        
+      
+        font-weight: 900;
+        font-size: 25px;
+        text-transform: uppercase;
+        padding-top: 17px;
+        padding-bottom: 10px;
+    }
+    .pro{
+        color: #ed563b;
+    }
+    p{
+        margin-top: 10px;
+        color: rgba(128, 128, 128, 0.884);
+        line-height: 1.5;
+        font-size: 15px;
+    }
+}
+.section2b{
+    display: flex;
+
+    .basic{
+        display: flex;
+        margin: 0 100px;
+        margin-top: 50px;
+    }
+    .basic_text{
+        margin-left:30px ;
+        line-height: 1.6;       
+    }
+    // .image{
+    //     width: 5%;
+    // }
+    h2{
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    p{
+        color:  rgba(128, 128, 128, 0.884);
+        font-size: 15px;
+    }
+    a{
+        margin-top: 10px;
+        color: #ed563b;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+}
+.section3{
+    background-image: url(./image/cta-bg.jpg);
+    height: 60vh;
+    margin-top: 100px;
+    .section3_text{
+       text-align: center;
+       padding-top: 100px;
+    }
+    h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    span{
+        color:#ed563b;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .btn2{
+        margin-top: 20px;
+        background-color: #ed563b;
+        padding: 15px 15px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+     
+}
+.section4a{
+    margin-top: 100px;
+    text-align: center;
+    cursor: pointer;
+    
+    h1{
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 25px;
+         padding-bottom: 10px;
+    }
+    span{
+        color: #ed563b;
+
+    }
+    p{
+        margin-top: 10px;
+        color: rgba(128, 128, 128, 0.884);
+        line-height: 1.5;
+        font-size: 15px;
+    }
+}
+.section4b{
+
+    .first{
+        display: flex;
+        background-color: white;
+        padding: 30px;
+        width: 25%;
+         box-shadow: 2px 2px 2px 2px lightgray;
+         margin-top: 30px;
+         border-radius: 3px;
+        
+    }
+    a{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin: 15px;
+        color: black; 
+    }
+    .aa{
+        color: #ed563b;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin: 15px;
+        
+    }
+    .ab{
+        
+        font-size: 19.5px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin: 15px;
+        color: black;
+    }
+    p{
+        margin-top: 10px;
+    }
+    .btn4{
+        padding: 20px;
+        width: 25%;
+         box-shadow: 2px 2px 2px 2px lightgray;
+         margin-top: 30px;
+         border-radius: 3px;
+         background-color: #ed563b;
+         color: white;
+         border: none;
+         font-size: 20px;
+         font-weight: 700;
+    }
+    
+}
+        
+   
+    
+      
+
+
+
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

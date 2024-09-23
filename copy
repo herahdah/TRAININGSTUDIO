@@ -1,0 +1,20 @@
+.nav_logo h1{
+            color: white;
+            font-size: 40px ;
+            font-weight:800 ;
+             .studio{
+                color: #dc3545;
+            }
+       
+                .nav_menulist{
+                   display: flex;
+                  gap:20px;
+                 }
+                     .nav_menulist ul{
+                          display: flex;
+                            gap: 20px;
+        
+       
+                             }
+
+}
