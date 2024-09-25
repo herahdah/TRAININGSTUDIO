@@ -392,12 +392,66 @@
   margin: 5px;
 }
 
+.section7 {
+  display: flex;
+  margin-top: 100px;
+}
 .section7 .section7b {
   background-image: url(./image/contact-bg.jpg);
-  height: 50vh;
-  width: 40%;
+  height: 85vh;
+  width: 50%;
 }
 .section7 .section7b form {
-  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 100px;
   background-color: white;
+  width: 70%;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+.section7 .section7b form .text {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+.section7 .section7b form .subject {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.section7 .section7b form .message {
+  width: 80%;
+  padding-top: -100px;
+  height: 30vh;
+  margin-top: 10px;
+}
+.section7 .btn6 {
+  margin-top: 10px;
+  background-color: #ed563b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.section7a {
+  height: 85vh;
+  width: 50%;
+}
+
+footer {
+  background-color: lightgray;
+  height: 15vh;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 15px;
+}
+
+span {
+  color: #ed563b;
+  font-weight: 800;
 }/*# sourceMappingURL=trainingstudio.css.map */
