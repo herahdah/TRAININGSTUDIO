@@ -140,4 +140,9 @@ function friday() {
 
     
 }
+function switchMode() {
+    let x =document.body
+    x.classList.toggle("dark")
+    
+}
 

@@ -8,15 +8,14 @@
 }
 
 .nav_container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgba(128, 128, 128, 0.627);
   height: 15vh;
   padding: 0 100px;
-  position: sticky;
   cursor: pointer;
-  top: 0;
 }
 .nav_container .nav_menulist {
   display: flex;
@@ -52,6 +51,7 @@
 
 .nav_video {
   position: absolute;
+  width: 100%;
 }
 .nav_video video {
   width: 100%;
@@ -454,4 +454,9 @@ footer {
 span {
   color: #ed563b;
   font-weight: 800;
+}
+
+.dark {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=trainingstudio.css.map */
