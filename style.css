@@ -460,3 +460,74 @@ span {
   background-color: black;
   color: white;
 }/*# sourceMappingURL=trainingstudio.css.map */
+
+.nav_sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/* .sticky{
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px lightgray;
+  width: 100%;
+  z-index: 5;
+  
+} */
+.sticky  .nav_menulist li a{
+  color: black;
+}
+.sticky h1{
+  color: black;
+}
+
+
+.sticky{
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  box-shadow:1px 1px 1px 1px lightgray ;
+  z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_sidebar{
+  display: none;
+}
+@media(max-width:768px){
+
+  .nav_sidebar{
+    display: block;
+  }
+
+
+}

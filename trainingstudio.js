@@ -1,22 +1,62 @@
-let firstleft_image=document.getElementById('firstleft_image')
-let firstleft_h2=document.getElementById('firstleft_h2')
-let firstleft_p=document.getElementById('firstleft_p')
-let firstp = document.getElementById("firstp")
-let secondp = document.getElementById("secondp")
-let thirdp = document.getElementById("thirdp")
-let fourthp = document.getElementById("fourthp")
+// let firstleft_image=document.getElementById('firstleft_image')
+// let firstleft_h2=document.getElementById('firstleft_h2')
+// let firstleft_p=document.getElementById('firstleft_p')
+// let firstp = document.getElementById("firstp")
+// let secondp = document.getElementById("secondp")
+// let thirdp = document.getElementById("thirdp")
+// let fourthp = document.getElementById("fourthp")
+
+
+
+let firstp=document.getElementById("firstp")
+let secondp=document.getElementById("secondp")
+let thirdp=document.getElementById("thirdp")
+let fourthp=document.getElementById("fourthp")
+let firstleft_image=document.getElementById("firstleft_image")
+let firstleft_h2=document.getElementById("firstleft_h2")
+let firstleft_p=document.getElementById("firstleft_p")
 
 
 
 function firsttraining() {
-    firstleft_image.src='./image/training-image-01.jpg'
+
+    firstleft_image.src="./image/training-image-01.jpg"
     firstleft_h2.innerHTML="First Training Class"
-    firstleft_p.innerHTML="Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. <br> Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida <br> aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam."
-    firstp.style.color='#ed563b'
-    secondp.style.color="black"
-    thirdp.style.color="black"
-    fourthp.style.color="black"
+    firstleft_p.innerHTML="Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. <br> Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia <br> gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam."
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function firsttraining() {
+//     firstleft_image.src='./image/training-image-01.jpg'
+//     firstleft_h2.innerHTML="First Training Class"
+//     firstleft_p.innerHTML="Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. <br> Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida <br> aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam."
+//     firstp.style.color='#ed563b'
+//     secondp.style.color="black"
+//     thirdp.style.color="black"
+//     fourthp.style.color="black"
+// }
 function secondtraining() {
     firstleft_image.src='./image/training-image-02.jpg'
     firstleft_h2.innerHTML= "Second Training Class"
@@ -146,3 +186,30 @@ function switchMode() {
     
 }
 
+// function sticky() {
+//     let nav_container = document.querySelector('.nav_container')
+//    let  stickypoint= 800
+
+//     if (window.pageYOffset > stickypoint) {
+//         nav_container.classList.add('sticky')
+        
+//     } else {
+//         nav_container.classList.remove('sticky')
+        
+//     }
+    
+// }
+// window.addEventListener("scroll",sticky)
+
+
+function sticky() {
+    let nav_container=document.querySelector(".nav_container")
+    stickypoint=700
+
+    if (window.pageYOffset >stickypoint) {nl
+        nav_container.classList.add("sticky")
+    }else{
+     nav_container.classList.remove("sticky")
+    }
+}
+window.addEventListener("scroll",sticky)
