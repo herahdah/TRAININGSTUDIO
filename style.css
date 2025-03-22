@@ -501,33 +501,143 @@ span {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav_sidebar{
   display: none;
 }
-@media(max-width:768px){
-
-  .nav_sidebar{
-    display: block;
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+  .nav_container {
+    padding: 0 50px;
   }
 
+  .section2b .basic {
+    margin: 0 50px;
+  }
 
+  .section4b {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .section5a_list {
+    margin-left: 300px;
+  }
+
+  .section5a_table {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav_container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .nav_container .nav_menulist {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_container .nav_menulist ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section2b {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section2b .basic {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section4b {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section5a_list {
+    margin-left: 100px;
+  }
+
+  .section5a_table {
+    margin-left: 100px;
+  }
+
+  .strenghta {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_container {
+    padding: 20px;
+  }
+
+  .nav_container .nav_logo {
+    font-size: 18px;
+  }
+
+  .nav_text h1 {
+    font-size: 40px;
+  }
+
+  .section3 h1 {
+    font-size: 30px;
+  }
+
+  .section5a_list ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section5a_table table {
+    width: 100%;
+  }
+
+  .strenghta {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav_container {
+    padding: 10px;
+  }
+
+  .nav_container .nav_menulist {
+    display: none;
+  }
+
+  .nav_text {
+    padding-top: 100px;
+  }
+
+  .nav_text h1 {
+    font-size: 30px;
+  }
+
+  .section2a h1,
+  .section4a h1,
+  .section5 h1 {
+    font-size: 20px;
+  }
+
+  .section5a_list {
+    margin-left: 0;
+  }
+
+  .section5a_table {
+    margin-left: 0;
+  }
+
+  .strenghta {
+    width: 100%;
+    padding: 20px;
+  }
 }
